@@ -7,69 +7,68 @@
 # Exercise 1
 # When you submit only include your final function: compare
 
-def compare(x , y):
-    if x > y:
-        return 1
-    elif x == y:
-        return 0
-    else:
-        return -1
+# def compare(x , y):
+#     if x > y:
+#         return 1
+#     elif x == y:
+#         return 0
+#     else:
+#         return -1
 
 ################################################################################
 # Exercise 2
 # When you submit only include your final function: hypotenuse
 # Do develop incrementally. Do not share here.
 
-from math import sqrt
-
-def hypotenuse(x , y):
-    xsquared = x**2
-    ysquared = y**2
-    dsquared = dx**2 + dy**2
-    result = math.sqrt(dsquared)
-    return result
+# import math
+# def hypotenuse(x , y):
+#     xsquared = x**2
+#     ysquared = y**2
+#     dsquared = xsquared + ysquared
+#     result = math.sqrt(dsquared)
+#     return result
 
 ################################################################################
 # Exercise 3
 # When you submit only include your final function: is_between
 
-def is_between(x , y , z):
-    if x <= y and y <= z:
-        return True
-    else:
-        return False
+# def is_between(x , y , z):
+#     if x <= y and y <= z:
+#         return True
+#     else:
+#         return False
 
 ################################################################################
 # Exercise 6
 # When you submit only include your final function: is_palindrome
 
-def first(word):
-    return word[0]
+# def first(word):
+#     return word[0]
 
-def last(word):
-    return word[-1]
+# def last(word):
+#     return word[-1]
 
-def middle(word):
-    return word[1:-1]
+# def middle(word):
+#     return word[1:-1]
 
-def is_palindrome (s):
-    if len(s) <= 1:
-        return True
-    if first(s) != last(s):
-        return False
-    return is_palindrome(middle(s))
+# def is_palindrome (s):
+#     if len(s) <= 1:
+#         return True
+#     if first(s) != last(s):
+#         return False
+#     return is_palindrome(middle(s))
 
 ################################################################################
 # Exercise 7
 # When you submit only include your final function: is_power
 
-def is_power(a , b):
-    if a == 1:          #assuming that b^0 is 1 which is also a power of b
-        return True
-    elif a%b == 0:
-        return is_power(a/b , b)
-    else:
-        return False
+# def is_power(a , b):
+#     if a == 1:          #assuming that b^0 is 1 which is also a power of b
+#         return True
+#     elif a%b == 0:
+#         return is_power(a/b , b)
+#     else:
+#         return False
 
 ################################################################################
 def main():
@@ -77,11 +76,6 @@ def main():
     ############################################################################
     # Use this space temporarily to call functions in development:
     print("Hello World!")
-
-
-
-
-
 
 
     ############################################################################
